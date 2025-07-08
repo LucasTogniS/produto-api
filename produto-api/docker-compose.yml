@@ -19,7 +19,7 @@ services:
     environment:
       ME_CONFIG_MONGODB_SERVER: mongodb
       ME_CONFIG_MONGODB_PORT: 27017
-      ME_CONFIG_BASICAUTH: "false"  # desativa usuário e senha
+      ME_CONFIG_BASICAUTH: "false"
     depends_on:
       - mongodb
 
